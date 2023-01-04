@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Expense Tracker</title>
+        <link rel="stylesheet" href="displayStyle.css">
+    </head>
+    <body>
+        <header>
+            <h1>Expense Tracker</h1>
+        </header> 
+       
+        <section class="container">
+            <form id="expenseForm">
+                <h2 class="formHeader">Add Expense</h2>
+                <div class="message"></div>
+                <div class="labels">
+                    <label for="amount">Amount Spent: </label>
+                </div>
+                <div class="inputs">
+                    <label>$</label>
+                    <input type="text" id="amount">
+                </div>
+                <div class="labels">
+                    <label for="description">Description of expense:</label>
+                </div>
+                <div class="inputs">
+                    <input type="text" id="description">
+                </div>
+                <input class="button" type="submit" value="Submit">
+                <div class="totals">
+                    <label >Total = </label>
+                    <label id="total">0</label>
+                </div>
+            </form>
+
+            <ul id="expenses"></ul>
+
+            <script src="logic.js"></script>
+        </section>
+    </body>
+
+</html>

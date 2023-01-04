@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+}
+header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: lightgrey;
+    text-align: center;
+    padding: .5rem;
+}
+#expenseForm{
+    background-color: lightgray;
+    padding: 1rem;
+}
+#formHeader{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.container{
+    width: 300px;
+    overflow: auto;
+    margin: auto;
+    padding: 3rem 2rem;
+}
+#expenseForm input[type='text']{
+    width: 90%;
+    padding: 4px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+#description{
+    margin-left: 10px;
+}
+.labels{
+    font-size: 90%;
+}
+.button{
+    width: 50%;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+.button:hover{
+    background: white;
+}
+.error{
+    background: lightcoral;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+}
+.totals{
+    padding-top: 10px;
+}
